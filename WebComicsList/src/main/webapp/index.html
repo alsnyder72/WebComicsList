@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Web Comic List Add Page</title>
+</head>
+<body>
+	<h2>Welcome to the Snyder Comic List Add Page</h2>
+	<br /><h3>Enter your new comics here: </h3>
+	
+	<form action = "addItemServlet" method="post">
+	Publisher: <input type ="text" name = "publisher">
+	Title: <input type = "text" name = "title"><br /><br />
+	Volume: <input type = "text" name = "volume">
+	Issue: <input type = "text" name = "issue">
+	
+	<input type = "submit" value="Add Item">
+	</form> <br />
+	<h3><a href = "viewAllItemsServlet">View the complete list</a></h3>
+</body>
+</html>
